@@ -8,11 +8,20 @@
     font-family: 'Roboto';
     src: url(../fonts/robotos/Roboto-Regular.ttf);
 }
+.navbar-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between; 
+    background-color:#db4d51;
+}
 .logo{
-    width:8%;
+    width:6.5%;
+    opacity:0.8;
+    margin-left: 15px;
+    padding:4px;
 }
 .navbar-container{
-    padding:0.4%;
+    padding:0.1%;
 }
 .navbar-nav{
     list-style:none;
@@ -28,7 +37,8 @@
     font-weight: 700;
 }
 .tabs-container{
-    margin-top:2%;
+    margin-top:1.8%;
+    margin-right:10px;
 }
 
 .navbar-nav{
@@ -37,9 +47,6 @@
     justify-content:space-evenly;
 
 }
-.navbar-container{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between; 
-    background-color:#f0004a;
+h1{
+    
 }
