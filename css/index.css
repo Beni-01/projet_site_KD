@@ -4,9 +4,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
 @font-face{
     font-family: 'Roboto';
     src: url(../fonts/robotos/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+@font-face{
+    font-family: 'Montserrat Regular';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+.banner-section{
+background-image:url(../images/hero-background.jpg);
+}
+.banner-section,.div-center{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
 }
 .navbar-container{
     display:flex;
@@ -48,5 +70,60 @@
 
 }
 h1{
-    
+    font-family: 'Montserrat';
+    font-size:80px;
+    text-align: center; 
+    text-transform:uppercase;
+    width:60%;
+    margin-top:11%;
+    color:white;
+}
+span{
+    color:#ffe64d;
+}
+.banner-button{
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    margin-top:4%;
+    justify-content:center;
+
+}
+
+.banner-button a{
+    position: relative;
+    text-decoration:none;
+    color:#dc4d51;
+    font-weight:800;
+    font-size: 23px;
+    font-family: 'Roboto';
+    display:block;
+    padding:2.5%;
+    background-color:white;
+    border-radius:15px;
+    margin:0px 10px;
+}
+
+.banner-text{
+    font-size:16px;
+    font-family: 'Montserrat Regular';
+    color:white;
+    margin-top:5%;
+    width:60%;
+    text-align:center;
+}
+.technos-container{
+    display:flex;
+    flex-direction: row;
+    margin-top:10%;
+   
+}
+
+.technos-container div{
+    margin-left:4.3%;
+    opacity:0.6;
+    margin-bottom:4.3%;
+}
+.technos-container div img{
+   width:50%;
 }
