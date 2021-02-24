@@ -79,7 +79,7 @@ h1{
     text-align: center; 
     text-transform:uppercase;
     width:60%;
-    margin-top:11%;
+    margin-top:10%;
     color:white;
 }
 span{
@@ -118,7 +118,7 @@ span{
 .technos-container{
     display:flex;
     flex-direction: row;
-    margin-top:10%;
+    margin-top:2%;
    
 }
 
