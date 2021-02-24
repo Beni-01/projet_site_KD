@@ -34,7 +34,7 @@ background-image:url(../images/hero-background.jpg);
     display:flex;
     flex-direction:row;
     justify-content:space-between; 
-    background-color:#db4d51;
+    background-color:#D92950;
 }
 .logo{
     width:6.5%;
@@ -69,6 +69,7 @@ background-image:url(../images/hero-background.jpg);
     justify-content:space-evenly;
 
 }
+
 h1{
     font-family: 'Montserrat';
     font-size:80px;
