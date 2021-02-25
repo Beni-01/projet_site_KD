@@ -184,15 +184,16 @@ h4{
 }
 .imgs-fluids+div>h1{
     color:rgb(66, 67, 69);
-    font-size:49px;
+    font-size:40px;
     margin-top:-3%;
+    width:100%;
 }
 .imgs-fluids{
-    width:47%;
+    width:43%;
     position: relative;
 }
 .imgs-fluids+div{
-    width:55%;
+    width:57%;
     padding:1%;
 }
 
