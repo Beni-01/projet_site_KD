@@ -164,16 +164,16 @@ z-index:1;
     border-bottom: red 2px solid;
 }
 .img-fluid-1{
-    width:90%;
+    width:85%;
     border-radius:0px 10px 10px 0px;
     position:absolute;
 }
 .img-fluid-2{
-    width:60%;
+    width:55%;
     border-radius:10px;
     position:absolute;
     top:230px;
-    left:300px;
+    left:280px;
 }
 h4{
     font-family: 'Montserrat Bold';
@@ -187,13 +187,14 @@ h4{
     font-size:40px;
     margin-top:-3%;
     width:100%;
+font-family: 'Montserrat Bold';
 }
 .imgs-fluids{
-    width:43%;
+    width:42%;
     position: relative;
 }
 .imgs-fluids+div{
-    width:57%;
+    width:58%;
     padding:1%;
 }
 
@@ -207,7 +208,7 @@ h4{
 .illustrations-container{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 5px;
     align-items: baseline;
 }
