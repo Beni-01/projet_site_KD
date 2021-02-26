@@ -118,7 +118,7 @@ z-index:1;
     background-color:white;
     border-radius:15px;
     margin:0px 10px;
-    transition:0.2s;
+    transition:0.2s a;
     font-weight: 700;
     margin:0px 10px;
     border: 2px solid white;
@@ -154,7 +154,7 @@ z-index:1;
    width:59%;
 }
 
-
+/* [debut]styles deuxieme bloc*/
 
 .img-illustration-size{
     width:23%;
@@ -219,3 +219,123 @@ font-family: 'Montserrat Bold';
     align-items: baseline;
     margin-top:3%;
 }
+/* [fin]styles deuxieme bloc*/
+
+
+/* styles du troisieme bloc*/
+
+.section-partners{
+    background-color:rgb(217, 41, 80);
+    padding:9%;
+}
+
+.partners-container div{
+margin-top:6%;
+}
+.partners-container div img{
+    width:50%;
+    display: block;
+    margin:auto;
+ }
+ .partners-container{
+     display:flex;
+     flex-direction:row;
+     align-items:center;
+     justify-content: space-between;
+
+ }
+ .section-partners h1{
+    color:white;
+    text-align: center;
+    font-size:40px;
+    width:100%;
+font-family: 'Montserrat Bold';
+ }
+ /* [fin] styles du troisieme bloc*/
+
+/* styles du quatrieme bloc*/
+
+
+.section-project-team{
+    background-color:rgb(241, 240, 243);
+    padding:5%;
+}
+
+.containers{
+display:flex;
+justify-content:center;
+margin-top:3%;
+}
+.section-project-team div h1{
+    color:rgb(53, 31, 66);
+    text-align: center;
+    font-size:40px;
+    width:100%;
+font-family: 'Montserrat Bold';
+}
+
+.container-left{
+    width:39%;
+    background-color:white;
+    padding: 3%;
+    border-top:12px solid rgb(255, 230, 77);
+    border-radius: 0px 0px 23px 23px;
+    margin-right: 20px;
+}
+
+.container-right{
+    width:39%;
+    background-color:white;
+    padding: 3%;
+    border-top:12px solid rgb(217, 41, 80);
+    border-radius: 0px 0px 23px 23px;
+    
+}
+
+
+.container-left h3, .container-right h3{
+    color:rgb(217, 41, 80);
+    font-size:28px;
+    font-family: 'Montserrat Bold';
+    text-align: center; 
+}
+.container-left p, .container-right p{
+  text-align: center; 
+    font-family: 'Montserrat Regular';
+    margin:4% 0px;
+    color:rgb(53, 31, 66);
+}
+
+
+.container-left .button, .container-right .button{
+   margin-top:10%;
+  }
+
+.container-left a, .container-right a{
+  
+    text-decoration:none;
+    color:white;
+    font-weight:800;
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding:20px;
+    background-color:#dc4d51;
+    border-radius:15px;
+    margin:0px 10px;
+    transition:0.2s a;
+    font-weight: 700;
+    margin:0px 10px;
+    border: 2px solid #dc4d51;
+    
+}
+
+.container-left a:hover, .container-right a:hover{
+    color: #dc4d51;
+    background: transparent;
+    font-size: 20px;
+  }
+
+
+  
+
+
