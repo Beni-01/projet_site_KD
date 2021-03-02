@@ -1,11 +1,9 @@
 
-*{
+body{
+    width: 100%;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
-    width: 100%;
 }
 @font-face{
     font-family: 'Roboto';
@@ -47,6 +45,7 @@ z-index:1;
     background-color:#D92950;
     z-index:2;
     position:fixed;
+    top:0px;
 
 }
 .logo{
@@ -72,7 +71,7 @@ z-index:1;
     font-weight: 700;
 }
 .tabs-container{
-    margin-top:1.8%;
+    margin-top:1%;
     margin-right:10px;
 }
 
@@ -266,7 +265,7 @@ display:flex;
 justify-content:center;
 margin-top:3%;
 }
-.section-project-team div h1{
+.section-project-team  h1{
     color:rgb(53, 31, 66);
     text-align: center;
     font-size:40px;
@@ -284,9 +283,9 @@ font-family: 'Montserrat Bold';
 }
 
 .container-right{
-    width:39%;
+    width:42%;
     background-color:white;
-    padding: 3%;
+    padding: 2%;
     border-top:12px solid rgb(217, 41, 80);
     border-radius: 0px 0px 23px 23px;
     
@@ -334,8 +333,91 @@ font-family: 'Montserrat Bold';
     background: transparent;
     font-size: 20px;
   }
+.pret-container{
+    background-color:rgb(174, 55, 83);
+    padding:3.5%;
+}
+
+.pret-container h1{
+    color:white;
+    text-align: center;
+    font-size:40px;
+    width:100%;
+font-family: 'Montserrat Bold';
+}
+.container-illustration{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    padding: 5px;
+    align-items: baseline;
+   
+}
+.color-white{
+    color:white;
+}
+.pret-container p>a{
+display: block;
+margin: 5% auto auto auto;
+border:1px solid white;
+text-decoration:none;
+color:white;
+font-weight:800;
+font-size: 20px;
+font-family: 'Roboto';
+padding:20px;
+background-color:rgb(217, 41, 80);
+border-radius:15px;
+width:15%;
+transition:0.2s a;
+font-weight: 700;
+border: 2px solid rgb(217, 41, 80);
+text-align: center;
+}
+
+.pret-container p>a:hover{
+
+    color:rgb(217, 41, 80);
+    background-color:white;
+    border: 2px solid white;
+    transition:0.2s a;
+    }
 
 
-  
+.border-img{   
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content:center;
+}
+.img-ill{
+    margin-left:20%; 
+    border: 1px solid white;
+    padding:14px;
+    border-radius:15px;
+    width:50%;
+}
+.img-user-group{
+    
+    border: 1px solid white;
+    padding:16px;
+    border-radius:15px;
+    width:35%;
+}
+
+.top-2{
+   margin-top: 13%;
+}
+.arrow{
+width:60%;
+margin-left:20%;
+}
+.arrow-container{
+    margin-left:20%;
+}
+.d-none{
+    display:none;
+}
+
 
 
