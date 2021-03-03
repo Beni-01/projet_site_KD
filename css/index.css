@@ -35,6 +35,7 @@ body{
 background-image:url(../images/hero-background.jpg);
 background-size:cover;
 z-index:1;
+margin-top:3%;
 }
 .banner-section,.div-center{
     display:flex;
@@ -43,10 +44,7 @@ z-index:1;
     align-items:center;
 
 }
-.div-center{
-    margin-top:4%;
-   
-}
+
 .navbar-container{
     display:flex;
     flex-direction:row;
@@ -55,6 +53,7 @@ z-index:1;
     z-index:2;
     position:fixed;
     top:0px;
+    width: 100%;
 
 }
 .logo{
@@ -110,7 +109,6 @@ z-index:1;
     display:flex;
     flex-direction:row;
     width:80%;
-    margin-top:4%;
     justify-content:center;  
 
 }
@@ -150,6 +148,7 @@ z-index:1;
     flex-direction: row;
     margin-top:4.4%;
     padding-bottom:10px;
+    margin-bottom:5.5%;
    
 }
 
@@ -177,11 +176,11 @@ z-index:1;
     position:absolute;
 }
 .img-fluid-2{
-    width:55%;
+    width:68%;
     border-radius:10px;
     position:absolute;
-    top:230px;
-    left:280px;
+    top:200px;
+    left:200px;
 }
 h4{
     font-family: 'Montserrat Bold';
@@ -198,11 +197,11 @@ h4{
 font-family: 'Montserrat Bold';
 }
 .imgs-fluids{
-    width:42%;
+    width:41%;
     position: relative;
 }
 .imgs-fluids+div{
-    width:58%;
+    width:59%;
     padding:1%;
 }
 
@@ -266,13 +265,13 @@ font-family: 'Montserrat Bold';
 
 .section-project-team{
     background-color:rgb(241, 240, 243);
-    padding:5%;
+    padding:2%;
 }
 
 .containers{
 display:flex;
 justify-content:center;
-margin-top:3%;
+padding: 3%;
 }
 .section-project-team  h1{
     color:rgb(53, 31, 66);
@@ -342,23 +341,24 @@ font-family: 'Montserrat Bold';
     background: transparent;
     font-size: 20px;
   }
+
+
 .pret-container{
     background-color:rgb(174, 55, 83);
-    padding:3.5%;
+    padding:6%;
 }
 
 .pret-container h1{
     color:white;
     text-align: center;
-    font-size:40px;
+    font-size:38px;
     width:100%;
 font-family: 'Montserrat Bold';
 }
 .container-illustration{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2%;
-    padding: 5px;
+    padding: 15px;
     align-items: baseline;
    
 }
@@ -377,7 +377,7 @@ font-family: 'Roboto Bold';
 padding:20px;
 background-color:rgb(217, 41, 80);
 border-radius:15px;
-width:15%;
+width:18%;
 transition:0.2s a;
 font-weight: 700;
 border: 2px solid rgb(217, 41, 80);
@@ -386,8 +386,8 @@ text-align: center;
 
 .pret-container p>a:hover{
 
-    color:rgb(217, 41, 80);
-    background-color:white;
+    color:white;
+    background-color:transparent;
     border: 2px solid white;
     transition:0.2s a;
     }
@@ -397,15 +397,14 @@ text-align: center;
    display:flex;
    flex-direction: row;
    align-items: center;
-   justify-content:center;
    
 }
 .img-ill{
-    margin-left:20%; 
     border: 1px solid white;
-    padding:14px;
+    padding:15px;
     border-radius:15px;
-    width:50%;
+    margin: auto;
+    width:45%;
 }
 .img-user-group{
     
@@ -419,12 +418,9 @@ text-align: center;
    margin-top: 13%;
 }
 .arrow{
-width:60%;
-margin-left:20%;
+    width:40px;
 }
-.arrow-container{
-    margin-left:20%;
-}
+
 .d-none{
     display:none;
 }
@@ -433,9 +429,39 @@ margin-left:20%;
     font-size:20px;
 }
 .container-img-ill{
-    margin: auto;
-  
+    margin-left:20%;
+    padding:2%;
+  }
+
+
+
+  .section-medias{
+    background-color:rgb(17, 17, 17);
+    padding:6%;
 }
 
+.media-container div{
+margin-top:2%;
 
-
+}
+.media-container div img{
+    width:100%;
+    display: block;
+    margin:auto;  
+ }
+ .media-container{
+     display:flex;
+     flex-direction:row;
+     align-items:center;
+     justify-content: space-between;
+     width:50%;
+     margin:auto;
+    
+ }
+ .section-medias h1{
+    color:white;
+    text-align: center;
+    font-size:40px;
+    width:100%;
+font-family: 'Montserrat Bold';
+ }
