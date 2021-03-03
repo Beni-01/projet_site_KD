@@ -48,7 +48,7 @@ footer{
     
     .footer-right p{
         font-family: 'Montserrat Regular';
-        font-size:20px;
+        font-size:22px;
         line-height:28px;
         font-weight: 700;
     }
@@ -76,7 +76,7 @@ footer{
         text-decoration:none;
         color:white;
         font-weight:800;
-        font-size: 20px;
+        font-size: 22px;
         font-family: 'Roboto';
         padding:15px;
         background-color:rgb(217, 41, 80);
@@ -91,4 +91,8 @@ footer{
         position:relative;
         top:65%;
         color: white;
+    }
+    footer span{
+        font-family: 'Roboto Bold';
+        font-size: 22px;
     }

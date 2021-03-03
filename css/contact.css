@@ -92,4 +92,11 @@
     border-radius:10px;
     border:none;
     font-size:22px;
+    border:2px solid rgb(255, 4, 107);
+    
+}
+.container-form-3 button:hover{
+  background-color:transparent;
+  color:white;
+
 }
