@@ -469,7 +469,7 @@ font-family: 'Montserrat Bold';
 
 
  .section-sustain{
-padding: 50px;
+padding: 75px;
  }
 
  .container-gl{
@@ -511,4 +511,11 @@ line-height:48px;
     font-family: 'Montserrat Bold';
     color:#424345;
    
+}
+
+.container-tweet{
+display:flex
+}
+.container-tweet{
+  
 }
