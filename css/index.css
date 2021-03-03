@@ -465,3 +465,50 @@ margin-top:2%;
     width:100%;
 font-family: 'Montserrat Bold';
  }
+
+
+
+ .section-sustain{
+padding: 50px;
+ }
+
+ .container-gl{
+     width:90%;
+     margin: auto;
+ }
+
+ .container-sustain{
+    display:flex;
+ }
+
+ .container-sustain div{
+   width:30%;
+   margin:10px;
+   padding:10px;
+ }
+
+
+ .section-sustain  h1{
+    color:#424345;
+    text-align: center;
+    font-size:40px;
+    width:100%;
+font-family: 'Montserrat Bold';
+line-height:48px;
+}
+
+ .img-sustain{
+     border-radius: 15px;
+     width:100%;
+ }
+ .img-sustain+p{
+     font-size:16px;
+     font-family: 'Montserrat Regular';
+     line-height:24px;
+ }
+ .img-sustain+p>span{
+  
+    font-family: 'Montserrat Bold';
+    color:#424345;
+   
+}
