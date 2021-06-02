@@ -3,13 +3,12 @@ footer{
     background-color: rgb(45, 45, 45);
     }
     .flex-footer{
-        padding: 8%;
+        padding: 5% 9%;
         color: rgb(231, 212, 212);
         display: flex;
-        
         }
       .footer-left{
-          width:60%;
+          width:55%;
           padding-top: 3%;  
           padding-right: 3%;   
           padding-bottom: 3%; 
@@ -20,11 +19,8 @@ footer{
           font-weight: 800;
       }
       .footer-right{
-        width:50%;
-        padding-top: 3%;  
-        padding-right: 3%;   
-        padding-bottom: 3%;  
-        position:relative;
+        width:57%;
+        padding:3%;
     }
     
     address{
@@ -50,7 +46,7 @@ footer{
         font-family: 'Montserrat Regular';
         font-size:22px;
         line-height:28px;
-        font-weight: 700;
+       
     }
     
     .form-footer{
@@ -76,7 +72,7 @@ footer{
         text-decoration:none;
         color:white;
         font-weight:800;
-        font-size: 22px;
+        font-size: 18px;
         font-family: 'Roboto';
         padding:15px;
         background-color:rgb(217, 41, 80);
@@ -89,10 +85,24 @@ footer{
         font-size:18px;
         font-family: 'Montserrat Regular';
         position:relative;
-        top:65%;
+        top:52%;
         color: white;
     }
     footer span{
         font-family: 'Roboto Bold';
         font-size: 22px;
+    }
+    .flex-icon{
+        display:flex;
+       margin-left:-2%;
+       
+        
+    }
+    .flex-icon div{
+        padding:10px;
+        
+    }
+    .flex-icon div a{
+        color:rgb(255, 4, 107);
+    
     }

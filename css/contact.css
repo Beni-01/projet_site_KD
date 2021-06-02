@@ -1,5 +1,5 @@
 .contact-section{
-    padding: 4.5em;
+    padding: 2% 0px;
     background-color: rgb(24, 15, 29);
     color:white;
 }
@@ -9,17 +9,13 @@
     justify-content:center;
 }
 
-.container-form{
-    display:flex;
-    justify-content:center;
-}
 
 .container-form-2{
-  padding:0px 7.6%;
+  padding:0px 9%;
 }
 
 .container-form-3{
-  padding:0px 7.6%;
+  padding:0px 9%;
   font-family: 'Montserrat Regular';
 }
 
@@ -37,7 +33,7 @@
 
   .contact-form label{
     font-family: 'Montserrat Regular';
-    font-size:18px;
+    font-size:15px;
   }
 
   .contact-form>h1+p{
@@ -50,8 +46,7 @@
      
   }
   .form-left,.form-right{
-      width:40%;
-      padding:1%;
+      width:40%; 
       margin:1%;
   }
 .form-left input,.form-right input,.container-form-2 textarea{
@@ -60,12 +55,16 @@
     outline: none;
     border-radius: 0px;
     border: 1px solid silver;
-    font-size: 18px;
+    font-size: 16px;
     padding:10px;
 }
 
 .container-form-2 textarea{
     width:98.4%;
+    font-family: 'Montserrat Regular';
+    font-size: 15px;
+    overflow-y: scroll;
+    
 }
 
 .form-left div,.form-right div{
@@ -79,24 +78,29 @@
     outline: none;
     border: 1px solid silver;
     border-radius: 0px;
-    font-size: 18px;
+    font-size: 16px;
     padding:10px;
 }
 .container-form-3 p>span{
     color:rgb(255, 4, 107);
 }
+.container-form-3 p{
+  color:silver;
+  line-height:5px;
+  font-family: 'Montserrat Regular';
+}
 .container-form-3 button{
-    padding:1%;
-    background-color:rgb(255, 4, 107);
+    padding:1.2%;
+    background-color:#D92950;
     color:white;
-    border-radius:10px;
-    border:none;
-    font-size:22px;
-    border:2px solid rgb(255, 4, 107);
+    border-radius:15px;
+    border:2px solid #D92950;
+    font-size:18px;
+    font-family: 'Montserrat bold';
     
 }
 .container-form-3 button:hover{
   background-color:transparent;
   color:white;
-
+  transition:.2s;
 }

@@ -1,0 +1,93 @@
+button
+{
+ 
+    color:white;
+    padding:20px;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    width: 20%;
+    outline: none;
+   border: 1px solid black;
+    
+  
+}
+
+button:active
+{
+    width: 20%;
+    color:white;
+
+    padding:20px;
+    background-color: red;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    animation: slideUp 1000ms;
+  
+}
+
+
+
+@keyframes slideUp
+{
+
+0%{
+    transform: translateX(10%);
+   
+    box-shadow: 5px 5px 10px black;
+}
+
+25%{
+    transform: translateX(50%);
+    box-shadow: 10px 10px 20px black;
+}
+
+50%{
+    transform: translateX(100%);
+    box-shadow: 10px 10px 20px black;
+}
+
+60%{
+    transform: translateX(200%);
+    box-shadow: 10px 10px 20px black;
+}
+
+80%{
+    transform: translateX(300%);
+    box-shadow: 10px 10px 20px black;
+}
+
+90%{
+    transform: translateX(350%);
+    box-shadow: 10px 10px 20px black;
+}
+
+100%{
+    transform:  translateX(400%);
+    box-shadow: 10px 10px 20px black;
+}
+    
+}
+input{
+  padding: 12px;
+  width:30%;
+  border-radius:30px;
+  border: 2px solid silver;
+  outline: 0;
+  font-size: 20px;
+}
+
+input:focus{
+    border: 2px solid orange;
+    
+    
+}
+
+input:not(:focus):invalid{
+    border: 2px solid red;
+  
+    color: white;
+    
+}
